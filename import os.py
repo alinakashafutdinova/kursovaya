@@ -55,7 +55,7 @@ while True:
                 print(" ", end="")
         print()
 
-    key = input("Введите WASD(W - вверх | A - влево | S - вниз | D - вправо) для управления: ").upper()
+    key = input("Введите WASD для управления: ").upper()
 
     new_head = (snake[0][0], snake[0][1])
 
